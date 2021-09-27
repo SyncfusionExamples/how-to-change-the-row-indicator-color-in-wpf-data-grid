@@ -46,5 +46,8 @@ This sample show cases how to change row indicator color in [WPF DataGrid](https
     </Setter>
 </Style>
 ```
+
+KB article - [How to change the row indicator color in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12026/how-to-change-the-row-indicator-color-in-wpf-datagrid-sfdatagrid)
+
 ## Requirements to run the demo
  Visual Studio 2015 and above versions
