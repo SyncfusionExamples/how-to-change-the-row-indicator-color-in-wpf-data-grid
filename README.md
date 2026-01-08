@@ -1,12 +1,11 @@
-# How to change the row indicator color in WPF DataGrid (SfDataGrid) ?
+# How to Change the Row Indicator Color in WPF DataGrid?
 
-How to change the row indicator color in WPF DataGrid (SfDataGrid) ?
+This sample illustrates how to change the row indicator color in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-# About the sample
+You can change the row indicator color by applying style for the `GridRowHeaderCell` in `DataGrid`.
 
-This sample show cases how to change row indicator color in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
-
-```Xaml
+#### XAML
+``` xml
 <Style TargetType="syncfusion:GridRowHeaderCell">
     <Setter Property="Template">
         <Setter.Value>
@@ -47,7 +46,7 @@ This sample show cases how to change row indicator color in [WPF DataGrid](https
 </Style>
 ```
 
-KB article - [How to change the row indicator color in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/12026/how-to-change-the-row-indicator-color-in-wpf-datagrid-sfdatagrid)
+![DataGrid showing the row header indicator with modified color](RowIndicatorColor.png)
 
 ## Requirements to run the demo
  Visual Studio 2015 and above versions
